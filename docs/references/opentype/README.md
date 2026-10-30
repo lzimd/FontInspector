@@ -1,0 +1,108 @@
+# OpenType specification
+
+This directory is a generated mirror of the current OpenType specification published by Microsoft Learn. The mirror covers the current specification pages under the `/en-us/typography/opentype/spec/` prefix. The mirror excludes archived versions and site chrome.
+
+Upstream landing page: [https://learn.microsoft.com/en-us/typography/opentype/spec/](https://learn.microsoft.com/en-us/typography/opentype/spec/).
+
+## Regeneration
+
+Run the following commands from the repository root:
+
+```sh
+uv run -m specmirror opentype fetch
+uv run -m specmirror opentype build
+```
+
+The build replaces generated files in this directory. Don't edit them by hand. Corrections belong in the versioned correction data under `scripts/specmirror/corrections/data/opentype/`.
+
+## Pages
+
+- [OpenType spec](index.md)
+  - Overview
+    - [OpenType overview](overview.md)
+    - [OpenType Layout overview](ttochap1.md)
+    - [OpenType Font Variations overview](otvaroverview.md)
+  - [The OpenType font file](otff.md)
+  - [OpenType Layout common table formats](chapter2.md)
+  - [OpenType Font Variations common table formats](otvarcommonformats.md)
+  - Tables
+    - [avar](avar.md)
+    - [BASE](base.md)
+    - [CBDT](cbdt.md)
+    - [CBLC](cblc.md)
+    - [CFF](cff.md)
+    - [CFF2](cff2.md)
+    - [cmap](cmap.md)
+    - [COLR](colr.md)
+    - [CPAL](cpal.md)
+    - [cvar](cvar.md)
+    - [cvt](cvt.md)
+    - [DSIG](dsig.md)
+    - [EBDT](ebdt.md)
+    - [EBLC](eblc.md)
+    - [EBSC](ebsc.md)
+    - [fpgm](fpgm.md)
+    - [fvar](fvar.md)
+    - [gasp](gasp.md)
+    - [GDEF](gdef.md)
+    - [glyf](glyf.md)
+    - [GPOS](gpos.md)
+    - [GSUB](gsub.md)
+    - [gvar](gvar.md)
+    - [hdmx](hdmx.md)
+    - [head](head.md)
+    - [hhea](hhea.md)
+    - [hmtx](hmtx.md)
+    - [HVAR](hvar.md)
+    - [JSTF](jstf.md)
+    - [kern](kern.md)
+    - [loca](loca.md)
+    - [LTSH](ltsh.md)
+    - [MATH](math.md)
+    - [maxp](maxp.md)
+    - [MERG](merg.md)
+    - [meta](meta.md)
+    - [MVAR](mvar.md)
+    - [name](name.md)
+      - [Name string examples](namesmp.md)
+    - [OS/2](os2.md)
+      - [IBM font class parameters](ibmfc.md)
+    - [PCLT](pclt.md)
+    - [post](post.md)
+    - [prep](prep.md)
+    - [sbix](sbix.md)
+    - [STAT](stat.md)
+    - [SVG](svg.md)
+    - [VDMX](vdmx.md)
+    - [vhea](vhea.md)
+    - [vmtx](vmtx.md)
+    - [VORG](vorg.md)
+    - [VVAR](vvar.md)
+  - [OpenType Layout Tag Registry](ttoreg.md)
+    - [Script tags](scripttags.md)
+    - [Language tags](languagetags.md)
+    - [Feature tags](featuretags.md)
+      - [Feature tags, a-e](features_ae.md)
+      - [Feature tags, f-j](features_fj.md)
+      - [Feature tags, k-o](features_ko.md)
+      - [Feature tags, p-t](features_pt.md)
+      - [Feature tags, u-z](features_uz.md)
+      - [Registered features](featurelist.md)
+    - [Baseline tags](baselinetags.md)
+  - [Design-variation axis tag registry](dvaraxisreg.md)
+    - [ital](dvaraxistag_ital.md)
+    - [opsz](dvaraxistag_opsz.md)
+    - [slnt](dvaraxistag_slnt.md)
+    - [wdth](dvaraxistag_wdth.md)
+    - [wght](dvaraxistag_wght.md)
+  - [Errata](errata.md)
+  - Appendices
+    - [Recommendations](recom.md)
+    - TrueType outlines and instructions
+      - [TrueType fundamentals](ttch01.md)
+      - [Instructing TrueType Glyphs](tt_instructing_glyphs.md)
+      - [The TrueType Instruction Set](tt_instructions.md)
+      - [Graphics State Summary](tt_graphics_state.md)
+    - [OpenType mirroring pairs list](ompl.md)
+    - [Comparison of 'glyf', 'CFF ' and CFF2 tables](glyphformatcomparison.md)
+    - [Change log](changes.md)

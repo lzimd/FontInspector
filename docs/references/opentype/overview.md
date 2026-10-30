@@ -1,0 +1,31 @@
+---
+title: "OpenType Overview"
+description: "OpenType specification overview (OpenType 1.9.1)"
+author: "PeterCon"
+ms.date: "2023-01-07T00:00:00Z"
+updated_at: "2024-05-31T17:41:00Z"
+upstream_gitcommit: "https://github.com/MicrosoftDocs/typography/blob/810414e13e39f68adfb5f12d525e6b50c850fbbc/typographydocs/opentype/spec/overview.md"
+last-modified: "2026-09-17T18:19:04Z"
+---
+
+<a id="anchor-overview-opentype-overview"></a>
+
+# OpenType Overview
+
+The OpenType font format is a widely-supported format for font data with a rich set of capabilities for digital typography. It was developed as an extension of the original TrueType format, using the same 'sfnt' container structure, and maintaining compatibility for fonts created following the original TrueType specification. But several additional capabilities are also supported, including the following:
+
+- Glyph outline data can use the CFF or CFF version 2 (“CFF2”) formats, as well as the TrueType glyph format.
+- Multicolor glyph presentation is supported using embedded color bitmaps or SVG documents, or using 2D graphic compositions defined in the font using a binary format that combines outline-format glyphs with various graphics operations.
+- All Unicode® characters can be supported, including supplementary-plane characters, as well as Unicode variation sequences.
+- OpenType Layout tables provide the advanced typographic capabilities needed for high-quality typography as well as for international text using the wide variety of scripts supported in [The Unicode Standard®](http://www.unicode.org/versions/latest/).
+- The [*mathematical typesetting table*](math.md) allows a font to include data required for layout of complex, math formulas.
+- OpenType collection files enable multiple fonts that share common data to be housed within a single file, allowing for de-duplication of data. This is especially useful, for example, for sets of CJK (Chinese, Japanese, Korean) fonts of the same design that share most glyphs in common but that vary with locale-specific glyphs for certain characters.
+- Font variations (“variable fonts”) enable glyph outlines or other font data to be variable based on one or more design-axis parameters. Whereas a collection file can contain multiple discrete, static font resources, a variable font can provide continuous variation in design along each of its axes. This can provide great flexibility for content authors and designers while also allowing the font data for an entire font family to be represented in an efficient format.
+
+This specification is intended to be used in conjunction with other specifications.
+
+- While various legacy character encoding standards are supported, it is primarily designed for use with [The Unicode Standard](http://www.unicode.org/versions/latest/), which provides the universal encoding for written characters and symbols, as well as specifications for how text in different scripts is to be represented.
+- This specification defines OpenType Layout tables and low-level glyph substitution and positioning operations needed for high-quality typography and for correct display of Unicode text in various scripts. (See [OpenType Layout Overview](ttochap1.md).) The OpenType Layout [*feature* registry](featuretags.md) defines various features that represent specific typographic capabilities that may be supported in a font, and that are used to *activate* those capabilities in a given font. Many features expose optional capabilities that authors and typographers can choose to use at their discretion; for example, small cap forms, or kerning. But many other features are used to activate capabilities that are required for correct display of text; for example, required ligatures for Arabic script, or positioning of mark glyphs. Many scripts supported in Unicode have complex structural behaviors that require non-trivial operations, implemented in applications or in text-layout and “shaping” libraries, to derive a correct sequence of positioned glyphs for presentation of an underlying Unicode string. The feature registry will include features that can be used in those operations. However, complete specification of shaping algorithms for different scripts is beyond the scope of this specification. Such algorithms can be proprietary, “closed-source” implementations in particular applications; or they can be defined in vendor-specific specifications or in other industry specifications.
+- Support for mathematical text involving complex formulas requires a content format to describe text semantics combined with layout and presentation capabilities. This specification defines the font-specific data that would be needed for presentation. In this way, OpenType can be used to implement presentation capabilities for other document format specifications, such as T<sub>E</sub>X or [MathML](https://www.w3.org/Math/). Certain features can be defined in the OpenType Layout feature tag registry to support math layout operations.
+- Text layout involves operations within individual lines of text but also control over arrangement of lines into larger blocks within a page or similar context. This specification defines certain data that is used in block-level layout, such as default line metrics (ascent, descent, leading). Also, certain features can be defined in the OpenType Layout feature tag registry to support layout of text blocks for either horizontal or vertical layout orientation. Complete specification of block level layout is beyond the scope of this specification, however. It can be used in conjunction with other specifications, such as [*Unicode Standard Annex #50: Unicode Vertical Text Layout*](http://www.unicode.org/reports/tr50/).
+- Some font capabilities can be subject to tailoring by applications or other higher-level protocols. For example, the TrueType instructions defined in this specification define operations used in rasterization of glyph outlines, but applications can supplement their own algorithms for final rasterization (for example, using over-sampling, or control of sub-pixel display elements) to optimize legibility of glyphs. Also, while the descriptions of features in the OpenType Layout feature tag registry can specify expected usage, applications may tailor their usage of features subject to other specifications or according to their own needs.
