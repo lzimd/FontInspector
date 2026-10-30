@@ -1,0 +1,500 @@
+[
+  {
+    "id": "morx-0001",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 1
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 6,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0002",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 2
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 13,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0003",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 3
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 4,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0004",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 4
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 13,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0005",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 5
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 2,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0006",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "1. A contextual substitution table" ],
+      "table": 6
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 12,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0007",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 1
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 8,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0008",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 2
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 11,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0009",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 3
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 5,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0010",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 4
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 13,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0011",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 5
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 4,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [
+      1
+    ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0012",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 6
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 10,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0013",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "table": 7
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 25,
+      "column_count": 3
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold label row to the declared header; GFM renders header cells in bold already."
+  },
+  {
+    "id": "morx-0014",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 42
+    },
+    "expect": {
+      "fingerprint": "a36139e15f98549484fc1ecefa50a5fc9f25eb6bb32bb1681cf5b5db52e82dbe"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0015",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 41
+    },
+    "expect": {
+      "fingerprint": "e84a34beb4e7586ef569d9cfd9ab8a85bdf58fef8a522cd592ef477810785ef1"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0016",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 40
+    },
+    "expect": {
+      "fingerprint": "e6c8eec29da93fd7bfe24f75110139497d4e65abb59945fff24d1e10c4183a97"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0017",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 39
+    },
+    "expect": {
+      "fingerprint": "f271b2e1e2f00689abc0aecc977ba8f082ac03df59b175200851b148ec0540a1"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0018",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 38
+    },
+    "expect": {
+      "fingerprint": "15a3fb563f70d62f8c47b4f0d46ee0f4a3c23fca03cafc85e9c3ee51ddd53c24"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0019",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 37
+    },
+    "expect": {
+      "fingerprint": "975b624f3a2e7e87093ac4a9b79e266e91c54eb2417d8aafc8d9cdaa5c412c9b"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0020",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 36
+    },
+    "expect": {
+      "fingerprint": "08ce3c0eace1b4fed3799d59f07b79cb243dfa0f479ed95a3cf0bf00a58250d0"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0021",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 35
+    },
+    "expect": {
+      "fingerprint": "329a00378b188e04165b850fa6bf4801654fa8a9beb7bce318cacac88ec1a255"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0022",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 34
+    },
+    "expect": {
+      "fingerprint": "c884c996c7a3ef1ec3d9d3673ed6ff83f9a1801a4d06413300d7a2f151c8bdfe"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0023",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 33
+    },
+    "expect": {
+      "fingerprint": "6afe505d83318fee5261d4e444175ff5129a2ab79160a4ad9a486e507ba49647"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0024",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 32
+    },
+    "expect": {
+      "fingerprint": "2ab53266c2ade8ca843ffa5ad40e01e9b2f17da1debb7a8a5ecf7130e89e027c"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0025",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 31
+    },
+    "expect": {
+      "fingerprint": "6af94e0f83d0e56c26c36227049c19361653db4b712ad1fc3d1fe8a3d436d0eb"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0026",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 30
+    },
+    "expect": {
+      "fingerprint": "73c8c8510d9ef5b936477b476f99002a0636eee91f97fd61d02494c98d43bd47"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0027",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 29
+    },
+    "expect": {
+      "fingerprint": "feb998fde5ed006b098bb82b25b4b236c52d3dd73883097bd00a949e016ed17a"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0028",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 28
+    },
+    "expect": {
+      "fingerprint": "d76c9efbd206ab6cf06f9edda08eb18d544f7e179ee84f74f316ef8c33dddbc9"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0029",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 27
+    },
+    "expect": {
+      "fingerprint": "f6da59428c595eabc24ebbbc1fb932c219d3ffe6adaeb0f4c3261620e7ea38e3"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0030",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 26
+    },
+    "expect": {
+      "fingerprint": "66790b94b71a18c8792332e65aeafe4f4f6d2774eb40ea15dd7add480aa3c237"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0031",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 25
+    },
+    "expect": {
+      "fingerprint": "32e0cd20ee7525793055bcdceac9f99bf36d286c55ac6b41ff504d3277c88bae"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0032",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 24
+    },
+    "expect": {
+      "fingerprint": "36195b07d905a2e0c51993599896e3c6b8a1731716624426231563c95c96db14"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0033",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 23
+    },
+    "expect": {
+      "fingerprint": "66f27240065805fe27ee55bb0c8a589073ed7e4073c715d0e1e7c63396c436c4"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0034",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 22
+    },
+    "expect": {
+      "fingerprint": "5e503da9381f27f12577dad587522acea5adab10d648f0fdeaa3be16daa3d395"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0035",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 21
+    },
+    "expect": {
+      "fingerprint": "014817c7925f670a81555eabf4c7e8fa512b8fd842085bbeffd932b9c9c05bd4"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0036",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 20
+    },
+    "expect": {
+      "fingerprint": "7b01e3f4358f19740467d182cf448681d7c806c297edbed8b2b0cc84f8c2b23f"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  },
+  {
+    "id": "morx-0037",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "The 'morx' Table", "2. A ligature table" ],
+      "block": 19
+    },
+    "expect": {
+      "fingerprint": "06b8cc1da9de1a6c20117d8c525146d233051e7889164007687c542dda44c29b"
+    },
+    "note": "Remove a paragraph that repeats the ligature table body after its final row."
+  }
+]

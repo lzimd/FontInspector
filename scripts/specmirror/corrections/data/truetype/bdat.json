@@ -1,0 +1,29 @@
+[
+  {
+    "id": "bdat-0001",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'bdat' table", "Dependencies" ],
+      "block": 1
+    },
+    "find": [
+      { "type": "link", "text": "'bloc'" },
+      { "type": "text", "text": " " },
+      { "type": "link", "text": "(bitmap location) table" }
+    ],
+    "inlines": [
+      {
+        "type": "link",
+        "href": "https://developer.apple.com/fonts/TrueType-Reference-Manual/RM06/Chap6bloc.html",
+        "inlines": [
+          { "type": "code", "text": "'bloc'" },
+          { "type": "text", "text": " (bitmap location) table" }
+        ]
+      }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: the table name and its description should form one 'bloc' link, but the source splits them into a nested link inside the code span and a trailing link that points back at this page; merge both into a single link to the 'bloc' page."
+  }
+]

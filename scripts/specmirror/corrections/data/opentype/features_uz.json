@@ -1,0 +1,20 @@
+[
+  {
+    "id": "features_uz-0001",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [
+        "Registered Features: Descriptions and Implementations (u – z)"
+      ],
+      "block": 2
+    },
+    "find": [
+      { "type": "text", "text": ">" }
+    ],
+    "inlines": [],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream authoring error: the 'unic' entry anchor contains a stray '>' character from a mis-escaped &gt;."
+  }
+]

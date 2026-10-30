@@ -1,0 +1,34 @@
+[
+  {
+    "id": "name-0001",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'name' table", "The language identifier", "The Macintosh platform" ],
+      "table": 1
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 60,
+      "column_count": 4
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the bold first row of the Macintosh language code table to the declared header."
+  },
+  {
+    "id": "name-0002",
+    "op": "set_table_header",
+    "target": {
+      "section_heading": [ "The 'name' table", "Sample 'name' table" ],
+      "table": 1
+    },
+    "expect": {
+      "header_fingerprint": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "row_count": 20,
+      "column_count": 5
+    },
+    "mode": "rows",
+    "rows": [ 1 ],
+    "note": "Promote the first row of the sample name table to the declared header."
+  }
+]

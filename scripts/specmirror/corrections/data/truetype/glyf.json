@@ -1,0 +1,32 @@
+[
+  {
+    "id": "glyf-0001",
+    "op": "replace_text",
+    "target": {
+      "section_heading": [ "The 'glyf' table", "Compound glyphs" ],
+      "table": 4,
+      "row": 1,
+      "cell": 2
+    },
+    "find": "SCALE",
+    "replace": "_SCALE",
+    "expect": {
+      "count": 1
+    },
+    "note": "Restore the underscore that the source line break separates from the WE_HAVE_AN_X_AND_Y_SCALE flag name in Table 19a."
+  },
+  {
+    "id": "glyf-0002",
+    "op": "replace_text",
+    "target": {
+      "section_heading": [ "The 'glyf' table", "Glyph data", "Simple glyphs" ],
+      "block": 4
+    },
+    "find": "byte in size.The meanings",
+    "replace": "byte in size. The meanings",
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: a missing space after the sentence period joins two sentences in the flags array paragraph."
+  }
+]

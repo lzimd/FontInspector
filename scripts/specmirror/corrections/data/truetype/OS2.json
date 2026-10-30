@@ -1,0 +1,98 @@
+[
+  {
+    "id": "OS2-0001",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'OS/2' table", "achVendID" ],
+      "table": 1,
+      "row": 6,
+      "cell": 1
+    },
+    "find": [
+      { "type": "code", "text": "'B? '" }
+    ],
+    "inlines": [
+      { "type": "code", "text": "'B&H '" }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: the Bigelow & Holmes vendor ID reads 'B? ' instead of 'B&H '."
+  },
+  {
+    "id": "OS2-0002",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'OS/2' table", "achVendID" ],
+      "table": 1,
+      "row": 10,
+      "cell": 1
+    },
+    "find": [
+      { "type": "text", "text": "'HP '" }
+    ],
+    "inlines": [
+      { "type": "code", "text": "'HP  '" }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream markup gap: the Hewlett-Packard vendor ID lost its code formatting and one of the two trailing tag spaces."
+  },
+  {
+    "id": "OS2-0003",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'OS/2' table", "achVendID" ],
+      "table": 1,
+      "row": 17,
+      "cell": 1
+    },
+    "find": [
+      { "type": "text", "text": "'MS '" }
+    ],
+    "inlines": [
+      { "type": "code", "text": "'MS  '" }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream markup gap: the Microsoft vendor ID lost its code formatting and one of the two trailing tag spaces."
+  },
+  {
+    "id": "OS2-0004",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'OS/2' table", "achVendID" ],
+      "table": 1,
+      "row": 20,
+      "cell": 1
+    },
+    "find": [
+      { "type": "text", "text": "ZSFT" }
+    ],
+    "inlines": [
+      { "type": "code", "text": "'ZSFT'" }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream markup gap: the ZSoft vendor ID lost its code formatting and its quotes."
+  },
+  {
+    "id": "OS2-0005",
+    "op": "replace_text",
+    "target": {
+      "section_heading": [ "The 'OS/2' table", "fsType" ],
+      "table": 8,
+      "row": 5,
+      "cell": 3
+    },
+    "find": "Century family.This IBM",
+    "replace": "Century family. This IBM",
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: a missing space after the sentence period joins two sentences in the Traditional style description."
+  }
+]

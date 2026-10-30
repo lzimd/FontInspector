@@ -1,0 +1,84 @@
+[
+  {
+    "id": "index-0001",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": ["Font Tables", "The table directory"],
+      "block": 8
+    },
+    "find": [
+      {"type": "text", "text": "The checkSum for the 'head table which includes the checkSumAdjustment entry for the entire font is now incorrect. That is not a problem. Do not change it. An application attempting to verify that the "}
+    ],
+    "inlines": [
+      {"type": "text", "text": "The checkSum for the "},
+      {"type": "code", "text": "'head'"},
+      {"type": "text", "text": " table which includes the checkSumAdjustment entry for the entire font is now incorrect. That is not a problem. Do not change it. An application attempting to verify that the "}
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: the first 'head' table name lost both its closing quote and its code formatting; rebuild it as a code span, matching the second occurrence in the same paragraph."
+  },
+  {
+    "id": "index-0002",
+    "op": "replace_block",
+    "target": {
+      "section_heading": ["Font Tables", "The offset subtable"],
+      "block": 3
+    },
+    "expect": {
+      "fingerprint": "46d5d6a07a5410de578d3c6078b9df885e8ef8bb1c154e84e3e4cd64684df2be"
+    },
+    "blocks": [
+      {
+        "type": "list",
+        "ordered": false,
+        "start": 1,
+        "items": [
+          { "blocks": [ { "type": "paragraph", "inlines": [ { "type": "text", "text": "searchRange is the largest power of two less than or equal to the number of items in the table, i.e. the largest number of items that can be easily searched." } ] } ] },
+          { "blocks": [ { "type": "paragraph", "inlines": [ { "type": "text", "text": "rangeShift is the number of items minus searchRange; i.e. the number of items that will not get looked at if you only look at searchRange items."} ] }, { "type": "paragraph", "inlines": [ {"type": "text", "text": "Before the search loop starts, compare the target item to the item with number rangeShift. If the target item is less than rangeShift, search from the beginning of the table. If it is greater, search starting at the item with number rangeShift."} ] } ] },
+          { "blocks": [ { "type": "paragraph", "inlines": [ { "type": "text", "text": "entrySelector is log₂(searchRange). It tells how many iterations of the search loop are needed. (i.e. how many times to cut the range in half)" } ] } ] }
+        ]
+      }
+    ],
+    "note": "Upstream markup typo: the search-loop explanation sits between two fragments of one list, so merge both fragments into one list and attach the explanation to the rangeShift item as its second paragraph."
+  },
+  {
+    "id": "index-0003",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "Font Tables", "The offset subtable" ],
+      "block": 5
+    },
+    "expect": {
+      "fingerprint": "4eebec362272cb45112f668f7dd590e34ac4618c05baaef75d4612b77164af9c"
+    },
+    "note": "Remove the second list fragment now that the merged list contains its entrySelector item."
+  },
+  {
+    "id": "index-0004",
+    "op": "remove_node",
+    "target": {
+      "section_heading": [ "Font Tables", "The offset subtable" ],
+      "block": 4
+    },
+    "expect": {
+      "fingerprint": "b373b9d862857dd21e788bb1f224b30d11fc2e7eef74dd76cbf68824f1ff6215"
+    },
+    "note": "Remove the standalone search-loop paragraph now that the rangeShift item contains it."
+  },
+  {
+    "id": "index-0005",
+    "op": "replace_text",
+    "target": {
+      "section_heading": ["Font Tables", "The offset subtable"],
+      "block": 1
+    },
+    "find": "follows.The table",
+    "replace": "follows. The table",
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: a missing space after the sentence period joins 'follows.' and 'The table'."
+  }
+]

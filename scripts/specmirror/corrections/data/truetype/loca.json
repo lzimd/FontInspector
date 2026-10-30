@@ -1,0 +1,16 @@
+[
+  {
+    "id": "loca-0001",
+    "op": "replace_text",
+    "target": {
+      "section_heading": [ "The 'loca' table", "General table information" ],
+      "block": 3
+    },
+    "find": "format used.This is specified",
+    "replace": "format used. This is specified",
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: a missing space after the sentence period joins 'used.' and 'This'."
+  }
+]

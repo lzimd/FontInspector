@@ -1,0 +1,21 @@
+[
+  {
+    "id": "kerx-0001",
+    "op": "replace_inline",
+    "target": {
+      "section_heading": [ "The 'kerx' table", "Dependencies" ],
+      "block": 1
+    },
+    "find": [
+      { "type": "code", "text": "'kerx" },
+      { "type": "code", "text": "'" }
+    ],
+    "inlines": [
+      { "type": "code", "text": "'kerx'" }
+    ],
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream authoring error: the 'kerx' tag name is split across two adjacent code elements."
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "id": "feat-0001",
+    "op": "replace_text",
+    "target": {
+      "section_heading": [ "The 'feat' table", "Feature Name Table Example" ],
+      "table": 2,
+      "row": 28,
+      "cell": 4
+    },
+    "find": "settings.Bit 30",
+    "replace": "settings. Bit 30",
+    "expect": {
+      "count": 1
+    },
+    "note": "Upstream typo: a missing space after the sentence period joins 'settings.' and 'Bit 30'."
+  }
+]
