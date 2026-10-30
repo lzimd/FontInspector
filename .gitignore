@@ -1,0 +1,12 @@
+.vscode/
+.scratch/
+
+.venv/
+__pycache__/
+*.pyc
+
+.ruff.toml
+
+.vale/
+
+xcuserdata/

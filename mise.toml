@@ -1,0 +1,10 @@
+[env]
+_.python.venv = { path = ".venv", create = true }
+PYTHONPATH = "scripts"
+
+[tools]
+"pypi:pyright" = "latest"
+python = "3.13"
+ruff = "latest"
+uv = "latest"
+vale = "latest"
